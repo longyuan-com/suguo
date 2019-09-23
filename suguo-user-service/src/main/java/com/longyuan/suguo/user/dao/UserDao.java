@@ -1,4 +1,4 @@
-package com.longyuan.sugou.user.dao;
+package com.longyuan.suguo.user.dao;
 
 import com.longyuan.suguo.bean.User;
 

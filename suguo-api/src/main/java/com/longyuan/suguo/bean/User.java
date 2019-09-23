@@ -1,8 +1,9 @@
-package com.longyuan.sugou.user.bean;
+package com.longyuan.suguo.bean;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class User {
+public class User implements Serializable{
 
     private String id;
     private String memberLevelId;

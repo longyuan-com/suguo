@@ -1,10 +1,12 @@
-package com.longyuan.sugou.user.service;
+package com.longyuan.suguo.service;
 
-import com.longyuan.sugou.user.bean.User;
+import com.longyuan.suguo.bean.User;
 
 import java.util.List;
 
 public interface UserService {
     public List<User> getAllUser();
+
+
 }
 

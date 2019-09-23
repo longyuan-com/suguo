@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.longyuan.sugou.user.dao.UmsMemberReceiveAddressDao" >
+    <!--通过memberId查询收货地址-->
+    <select id="getReceiveAddressByMemberID" resultType="com.longyuan.suguo.bean.UmsMemberReceiveAddress">
+   	      select * from ums_member_receive_address where member_id=#{memberId}
+    </select>
+
+</mapper>
