@@ -1,6 +1,8 @@
 package com.longyuan.suguo.bean;
 
-public class PmsBaseCatalog3 {
+import java.io.Serializable;
+
+public class PmsBaseCatalog3 implements Serializable {
     private String id;
     private String name;
     private String catalog2_id;
